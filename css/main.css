@@ -128,3 +128,21 @@ body {
 .content {
   will-change: transform;
 }
+@media screen and (max-width: 450px) {
+  .layers-title {
+    font-size: calc(var(--index) * 12);
+  }
+  .layers-caption {
+    font-size: calc(var(--index) * 4);
+  }
+  .main-article-header {
+    font-size: calc(var(--index) * 8);
+  }
+  .main-article-paragraph {
+    font-size: calc(var(--index) * 4);
+    max-width: calc(var(--index) * 80);
+  }
+  .copy {
+    font-size: calc(var(--index) * 2.5);
+  }
+}
